@@ -9,6 +9,6 @@ const person = {
 
 // console.log('explore JSOn');
 const personJSON = JSON.stringify(person);
-console.log(personJSON ,typeof person); //return person object with JSON format
+// console.log(personJSON ,typeof person); //return person object with JSON format
 const reverseJSON = JSON.parse(personJSON);
-console.log(reverseJSON, typeof personJSON); //return main object
+// console.log(reverseJSON, typeof personJSON); //return main object

@@ -23,5 +23,6 @@ const displayPost = (posts) =>{
         `
         postContainer.append(postCard)
     });
-    loadPost()
-}
+    
+};
+// postData() //কল করার কারন by default কার্ড গুলো দেখাচ্ছে।
